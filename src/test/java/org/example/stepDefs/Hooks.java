@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
-    public static WebDriver driver = new FirefoxDriver();
+    public static WebDriver driver = new ChromeDriver();
     @Before
     public static void openBrowser() {
         WebDriverManager.firefoxdriver().setup();
