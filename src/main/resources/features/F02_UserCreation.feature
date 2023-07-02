@@ -8,7 +8,7 @@ Feature: F02_Verification | Users Verifies His Email and creates his account
     And User Enters Last name "TestLast"
     And User Enters password "P@ssw0rd"
     And User Reenters password "P@ssw0rd"
-    And User Clicks Create Account button
+    And User Clicks Create Account
     And User chooses department
     And User chooses plan
     And User clicks the Start button

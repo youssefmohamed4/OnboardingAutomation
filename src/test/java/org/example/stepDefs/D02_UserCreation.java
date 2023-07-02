@@ -56,7 +56,7 @@ public class D02_UserCreation {
         link.confirmPassword.sendKeys(pass);
     }
 
-    @When("User Clicks Create Account button")
+    @When("User Clicks Create Account")
     public void User_Clicks_Create_Account_button() {
         link.createAccountBTN2.click();
     }
