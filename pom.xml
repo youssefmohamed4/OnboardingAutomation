@@ -26,7 +26,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
-                        <include>**/*runners.java</include> <!-- this should be the name of your runner class -->
+                        <include>**/*runner.java</include> <!-- this should be the name of your runner class -->
                     </includes>
                 </configuration>
             </plugin>
