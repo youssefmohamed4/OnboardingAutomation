@@ -1,6 +1,7 @@
+@smoke
 Feature: F02_Verification | Users Verifies His Email and creates his account
   #Happy Scenario
-  Scenario: Successful Registration (Valid data)
+  Scenario: Successful User Validation
     Given User navigate to his email
     When User finds his verification mail
     And User Clicks Start here button
