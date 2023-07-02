@@ -17,5 +17,5 @@ public class P05_Homepage {
 
     @FindBy(id = ":r1:")
     public WebElement inviteEmployees;
-    
+
 }
