@@ -57,7 +57,7 @@ public class D02_UserCreation {
     }
 
     @When("User Clicks Create Account")
-    public void User_Clicks_Create_Account_button() {
+    public void User_Clicks_Create_Account() {
         link.createAccountBTN2.click();
     }
     @When("User chooses department")
