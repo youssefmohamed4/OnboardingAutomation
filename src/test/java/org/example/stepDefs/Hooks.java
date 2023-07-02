@@ -11,10 +11,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
-    public static WebDriver driver = new EdgeDriver();
+    public static WebDriver driver = new FirefoxDriver();
     @Before
     public static void openBrowser() {
-        WebDriverManager.edgedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
         driver.get("https://portal-demo.finflx.com/register/");
