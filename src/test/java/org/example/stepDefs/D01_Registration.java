@@ -37,8 +37,8 @@ public class D01_Registration {
         link.workEmail.sendKeys(companyName);
     }
 
-    @When("User Clicks Create Account button")
-    public void user_clicks_create_account_button() {
+    @When("User Clicks Create Account")
+    public void userClicksCreateAccount() {
     link.createAccountBTN.click();
     }
 

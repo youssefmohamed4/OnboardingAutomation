@@ -8,5 +8,5 @@ Feature: F01_Registration | Users create new account
     And User Enters First name "TestFirst"
     And User Enters Last name "TestLast"
     And User Enters Company name "TestCompany"
-    And User Clicks Create Account button
+    And User Clicks Create Account
     Then New Account is registered
