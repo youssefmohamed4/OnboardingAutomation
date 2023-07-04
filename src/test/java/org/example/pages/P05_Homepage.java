@@ -18,4 +18,16 @@ public class P05_Homepage {
     @FindBy(id = ":r1:")
     public WebElement inviteEmployees;
 
+    @FindBy(id = ":r2j:")
+    public WebElement addRow;
+
+    @FindBy(xpath = "//div[@aria-label=\"First Name\"]")
+    public WebElement firstName;
+
+    @FindBy(xpath = "//div[@aria-label=\"Last Name\"]")
+    public WebElement lastName;
+
+    @FindBy(xpath = "//div[@aria-label=\"Email\"]")
+    public WebElement email;
+
 }
