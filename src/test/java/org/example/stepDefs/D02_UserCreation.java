@@ -35,15 +35,15 @@ public class D02_UserCreation {
         mailLink.startHereBTN.click();
     }
 
-//    @When("User Enters firstName {string}")
-//    public void user_enters_firstName(String first) {
-//        link.firstName2.sendKeys(first);
-//    }
-//
-//    @When("User Enters lastName {string}")
-//    public void user_enters_lastName(String last) {
-//        link.lastName2.sendKeys(last);
-//    }
+    @When("User Enters firstName {string}")
+    public void user_enters_firstName(String first) {
+        link.firstName2.sendKeys(first);
+    }
+
+    @When("User Enters lastName {string}")
+    public void user_enters_lastName(String last) {
+        link.lastName2.sendKeys(last);
+    }
 
     @When("User Enters password {string}")
     public void user_enters_password(String pass) {

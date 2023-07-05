@@ -5,8 +5,8 @@ Feature: F02_Verification | Users Verifies His Email and creates his account
     Given User navigate to his email
     When User finds his verification mail
     And User Clicks Start here button
-#    And User Enters First name "TestFirst"
-#    And User Enters Last name "TestLast"
+    And User Enters First name "TestFirst"
+    And User Enters Last name "TestLast"
     And User Enters password "P@ssw0rd"
     And User Reenters password "P@ssw0rd"
     And User Clicks Create Account button
